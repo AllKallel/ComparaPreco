@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         private Combustivel criaCombustivel(String etanol, String gas){
             Combustivel combustivel = new Combustivel();
             combustivel.setEtanol(etanol);
-            combustivel.setGas(etanol);
+            combustivel.setGas(gas);
             return combustivel;
         }
 
