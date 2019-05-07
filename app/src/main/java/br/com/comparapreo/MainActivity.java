@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Combustivel combustivel = criaCombustivel(etanol, gas);
                 insereInformacao(combustivel);
+                lerDados();
 
             }
         });
